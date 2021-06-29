@@ -13,3 +13,7 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## TODOS
+[ ] Arrumar o SQL de insert de pacientes (colocar as perguntas).
