@@ -30,4 +30,4 @@ class psychologist():
         {self.psi_endereco});""")
 
     def get(self):
-        return self.db.cursor.execute(f"""SELECT * from psicologo""")
+        return self.db.cursor.execute(f"""SELECT * from psicologo;""")

@@ -1,11 +1,11 @@
---Criando o banco.
-CREATE SCHEMA `psi`;
+-- Criando o banco.
+CREATE SCHEMA IF NOT EXISTS `psi`;
 
---Usando o banco.
-use `psi`;
+-- Usando o banco.
+USE `psi`;
 
---Criando a tabela "psicologo".
-create table `psicologo` (
+-- Criando a tabela "psicologo".
+CREATE TABLE IF NOT EXISTS `psicologo` (
     `psi_id` INT NOT NULL AUTO_INCREMENT,
     `psi_nome` VARCHAR(40) NOT NULL,
     `psi_email` VARCHAR(40) NOT NULL,
@@ -15,7 +15,7 @@ create table `psicologo` (
     `psi_CRP` VARCHAR(15) NOT NULL,
     `psi_nascimento` DATE NOT NULL,
     `psi_endereco` VARCHAR(50) NOT NULL,
-    PRIMARY KEY (ID)
+    PRIMARY KEY (psi_id)
 );
 --Adicionando um psicólogo.
 INSERT INTO `psicologo`(
@@ -29,7 +29,7 @@ INSERT INTO `psicologo`(
     `psi_endereco`) VALUES();
 
 --Criando a tabela "paciente".
-create table `paciente`(
+CREATE TABLE IF NOT EXISTS `paciente`(
     `pac_id` INT NOT NULL AUTO_INCREMENT,
     `pac_nome` VARCHAR(40) NOT NULL,
     `pac_email` VARCHAR(40) NOT NULL,
@@ -131,8 +131,8 @@ INSERT INTO `paciente`(
     `P41`,
     `P42`) VALUES();
 
---Criando a tabela "evolucao".
-create table `evolucao`(
+-- Criando a tabela "evolucao".
+CREATE TABLE IF NOT EXISTS `evolucao`(
     `evo_id` INT NOT NULL AUTO_INCREMENT,
     `pac_id` INT NOT NULL,
     `numero_sessao` INT NOT NULL,
