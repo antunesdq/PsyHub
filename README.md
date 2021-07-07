@@ -19,4 +19,12 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+### Todo's
 
+- [x] Create API
+- [ ] Test API
+- [ ] Fix API
+- [x] Create Querries
+- [ ] Test Querries
+- [ ] Fix Querries
+- [ ] Start FrontEnd
