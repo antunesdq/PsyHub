@@ -1,8 +1,9 @@
-https://img.shields.io/github/license/antunesdq/PsyHub
-https://img.shields.io/github/last-commit/antunesdq/PsyHub
-https://img.shields.io/github/v/release/antunesdq/PsyHub
-https://img.shields.io/github/commit-activity/m/antunesdq/PsyHub
 # PsyHub
+
+![](https://img.shields.io/github/license/antunesdq/PsyHub)
+![](https://img.shields.io/github/last-commit/antunesdq/PsyHub)
+![](https://img.shields.io/github/v/release/antunesdq/PsyHub)
+![](https://img.shields.io/github/commit-activity/m/antunesdq/PsyHub)
 
 Psyhub is the managing tool for a psychologist, manage your patients and clinic in a sigle application.
 
