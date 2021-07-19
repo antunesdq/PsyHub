@@ -150,7 +150,7 @@ class psychologist():
     def get(self):
         return self.db.cursor.execute(f"""SELECT * from psicologo;""")
 
-class session():
+class psi_session():
     def __init__(self, db, evo_id, pac_id, numero_sessao, datetime_inicio, datetime_termino, prodecimentos, sintese, observacao, plan_prox_sessao):
         self.db = db
         self.evo_id = evo_id
